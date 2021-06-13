@@ -230,9 +230,10 @@ margin-bottom: 15px;
 }
 .service__content{
 	padding-left: 120px;
+}
+.service__content-box{
 	width: 330px;
 }
-
 .service__description-box{
 	display: flex;
 	align-items: center;
