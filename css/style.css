@@ -286,17 +286,18 @@ padding: 30px 0 5px;
 .line{
 	height: 77px;
 	background: #252B42;
+	position: relative;
 }
 .subscribe__block{
-	position: relative;
+	position: absolute;
 	display: flex;
-	top: -32px;
 	background: #16697A;
 	border-radius: 2px;
-	padding: 30px 50px;
-	flex-direction: row;
 	align-items: center;
-	margin: 0 32px;
+	left: 50%;
+	transform: translateX(-50%);
+	padding: 30px 40px 30px 50px;
+	bottom: 20px;
 
 }
 .subscribe__title{
@@ -310,13 +311,27 @@ padding: 30px 0 5px;
 }
 .subscribe__form{
 	display: flex;
-	width: 986px;
 }
 .subscribe__form-input{
 	line-height: 28px;
 	font-weight: 400;
 	padding: 15px 235px 15px 20px;
+	border: 1px solid #E6E6E6;
+	border-radius: 5px 0 0 5px;
+	box-sizing: border-box;
+	border: none; /* Убираем рамку */
+    outline: none; /* Убираем свечение в Chrome и Safari */
+    -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
 
+}
+.subscribe__form-btn{
+	line-height: 28px;
+	font-weight: 400;
+	color: #FFFFFF;
+	background: #FFA62B;
+	border: 1px solid #E6E6E6;
+	border-radius: 0px 5px 5px 0px;
+	box-sizing: border-box;
 }
 .contact{
 	padding: 80px 0 148px;
@@ -447,6 +462,7 @@ padding-bottom: 10px;
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 25px;
+	align-items: center;
 }
 .block-footer__social-list{
 	margin: 0 20px;
