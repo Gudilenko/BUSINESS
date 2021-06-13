@@ -40,6 +40,11 @@ body{
 .logo{
 	margin-right: 96px;
 }
+.logo__link{
+	width: 106px;
+	height: 32px;
+	fill: #252B42;
+}
 .menu__list{
 	display: flex;
 }
