@@ -2,9 +2,7 @@ html{
 	box-sizing: border-box;
 }
 
-*, *::before, *::after{
-	box-sizing: inherit;
-}
+
 a{
 	text-decoration: none;
 	color: inherit;
@@ -237,7 +235,6 @@ margin-bottom: 15px;
 .service__description-box{
 	display: flex;
 	align-items: center;
-	box-sizing: content-box;
 }
 
 .service__title{
