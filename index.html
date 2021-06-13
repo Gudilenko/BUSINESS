@@ -5,6 +5,26 @@
       <meta name="viewport" content="width=device-width, height=device-height, target-densitydpi=device-dpi, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
       <title></title>
+      <script src="dist/svg4everybody.legacy.js"></script>
+<script>
+if (location.hash === '') {
+  svg4everybody();
+} else if (location.hash === '#fill') {
+  svg4everybody({
+    polyfill: true
+  });
+} else if (location.hash === '#oldie') {
+  svg4everybody({
+    nosvg: true,
+    polyfill: true
+  });
+}
+
+function addSVG(node, href) {
+  node.innerHTML ='<' + 'svg role="presentation"' + '><' + 'use xlink:href="' + href + '"/' + '><' + '/svg' + '>';
+  node.parentNode.replaceChild(node.lastChild, node);
+}
+</script>
       <link rel="preconnect" href="https://fonts.gstatic.com">
       <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="css/reset.css">
@@ -37,17 +57,17 @@
             </div>
             <div class="header__info">
                <div class="header__info-box">
-                  <img class="header__info-img" src="images/icon/icon1.svg" alt="#"></img>
+                  <svg role="img" class="header__info-img"><use xlink:href="images/icon/sprites.svg#icon1"></use></svg>
                   <h3 class="header__info-title">Digital Marketing</h3>
                   <p class="header__info-text">We focus on ergonomics and meeting you where you work. </p>
                </div>
                <div class="header__info-box">
-                  <img class="header__info-img" src="images/icon/icon2.svg" alt="#"></img>
+                <svg class="header__info-img"><use xlink:href="images/icon/sprites.svg#icon2"></use></svg>
                   <h3 class="header__info-title">National top 50 firms</h3>
                   <p class="header__info-text">Just type what's on your mind and we'll get you there. </p>
                </div>
                <div class="header__info-box">
-                  <img class="header__info-img" src="images/icon/icon3.svg" alt="#"></img>
+                  <svg class="header__info-img"><use xlink:href="images/icon/sprites.svg#icon3"></use></svg>
                   <h3 class="header__info-title">Digital Marketing</h3>
                   <p class="header__info-text">the quick fox jumps over the lazy dog.</p>
                </div>
@@ -63,22 +83,22 @@
                </div>
                <div class="choice__benefits-box">
                   <div class="choice__benefits-item">
-                     <img class="benefits__img" src="images/icon/icon4.svg"></img>
+                     <svg class="benefits__img"><use xlink:href="images/icon/sprites.svg#icon4"></use></svg>
                      <h2 class="benefits__title">3K</h2>
                      <p class="benefits__text">CASES DONE</p>
                   </div>
                   <div class="choice__benefits-item">
-                     <img class="benefits__img" src="images/icon/icon5.svg"></img>
+                    <svg class="benefits__img"><use xlink:href="images/icon/sprites.svg#icon5"></use></svg>
                      <h2 class="benefits__title">45</h2>
                      <p class="benefits__text">HAPPY CUSTOMERS</p>
                   </div>
                   <div class="choice__benefits-item">
-                     <img class="benefits__img" src="images/icon/icon6.svg"></img>
+                    <svg class="benefits__img"><use xlink:href="images/icon/sprites.svg#icon6"></use></svg>
                      <h2 class="benefits__title">12+</h2>
                      <p class="benefits__text">AWARD WINNING</p>
                   </div>
                   <div class="choice__benefits-item">
-                     <img class="benefits__img" src="images/icon/icon7.svg"></img>
+                    <svg class="benefits__img"><use xlink:href="images/icon/sprites.svg#icon1"></use></svg>
                      <h2 class="benefits__title">1.5K</h2>
                      <p class="benefits__text">CASES DONE</p>
                   </div>
@@ -272,5 +292,6 @@
         </div>
 
       </footer>
+      
    </body>
 </html>
