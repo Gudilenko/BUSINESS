@@ -230,19 +230,14 @@ margin-bottom: 15px;
 }
 .service__content{
 	padding-left: 120px;
+	width: 330px;
 }
-.service__content-box{
-width: 330px;
-}
-.service__description{
+
+.service__description-box{
 	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
 	align-items: center;
 }
-.service__description-item{
-	width: 286px;
-}
+
 .service__title{
 	padding-top: 20px;
 	font-weight: 700;
