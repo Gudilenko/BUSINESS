@@ -234,6 +234,15 @@ margin-bottom: 15px;
 .service__content-box{
 width: 330px;
 }
+.service__description{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.service__description-item{
+	width: 286px;
+}
 .service__title{
 	padding-top: 20px;
 	font-weight: 700;
@@ -260,6 +269,9 @@ padding: 30px 0 5px;
 }
 .service__icon{
 	padding-right: 20px;
+	width: 32px;
+	height: 32px;
+	fill: #FFA62B;
 }
 .brands{
 	background: #FAFAFA;
