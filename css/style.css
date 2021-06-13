@@ -1,8 +1,6 @@
 html{
 	box-sizing: border-box;
 }
-
-
 a{
 	text-decoration: none;
 	color: inherit;
@@ -53,7 +51,6 @@ body{
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	width: 509px;
 }
 
 .header__title{
@@ -64,7 +61,7 @@ body{
 	color: #252B42;
 	margin-bottom: 35px;
 	text-transform: uppercase;
-
+	width: 509px;
 }
 .header__text{
 	font-size: 20px;
