@@ -237,6 +237,7 @@ margin-bottom: 15px;
 .service__description-box{
 	display: flex;
 	align-items: center;
+	box-sizing: content-box;
 }
 
 .service__title{
