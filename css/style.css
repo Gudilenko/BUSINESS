@@ -275,7 +275,8 @@ padding: 30px 0 5px;
 }
 .brands__img{
 	padding: 0 25px;
-	width: 103px;
+	width: 85px;
+	fill: #737373;
 }
 .line{
 	height: 77px;
