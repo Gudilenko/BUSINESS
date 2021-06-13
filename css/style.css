@@ -217,11 +217,11 @@ margin-bottom: 15px;
 .service__inner{
 	display: flex;
 }
-.service__img:after{
-	content: "";
+.service__img{
+width: 597px;
+height: 442px;
+background: linear-gradient(180deg, rgba(0, 0, 0, 0) 14.58%, rgba(56, 56, 56, 0.84) 100%), url(../images/img5.jpg);
 
-	background: transparent;
-	background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 14.58%, rgba(56, 56, 56, 0.84) 100%);
 }
 .service__content{
 	padding-left: 120px;
