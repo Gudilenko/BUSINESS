@@ -289,16 +289,15 @@ padding: 30px 0 5px;
 	position: relative;
 }
 .subscribe__block{
+	max-width: 968px;
 	position: absolute;
 	display: flex;
 	background: #16697A;
 	border-radius: 2px;
 	align-items: center;
-	left: 50%;
-	transform: translateX(-50%);
+  	left: calc(50% - 986px/2);
 	padding: 30px 40px 30px 50px;
 	bottom: 20px;
-
 }
 .subscribe__title{
 	padding-right: 180px;
@@ -313,6 +312,7 @@ padding: 30px 0 5px;
 	display: flex;
 }
 .subscribe__form-input{
+	max-width: 335px;
 	line-height: 28px;
 	font-weight: 400;
 	padding: 15px 235px 15px 20px;
@@ -332,6 +332,8 @@ padding: 30px 0 5px;
 	border: 1px solid #E6E6E6;
 	border-radius: 0px 5px 5px 0px;
 	box-sizing: border-box;
+	padding: 15px 22px;
+	cursor: pointer;
 }
 .contact{
 	padding: 80px 0 148px;
