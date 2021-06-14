@@ -477,6 +477,7 @@ align-items: center;
 }
 .footer__item-box{
 	display: flex;
+	flex-direction: column;
 	width: 239px;
 }
 .footer__icon{
