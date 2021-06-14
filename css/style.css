@@ -341,6 +341,7 @@ padding: 30px 0 5px;
 .contact__box{
 	padding: 35px 30px 0;
 	display: flex;
+	justify-content: center;
 }
 .contact__block-item{
 	display: flex;
