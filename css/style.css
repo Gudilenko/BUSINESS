@@ -25,7 +25,7 @@ body{
 	padding: 40px 0;			
 }
 .logo{
-	margin-right: 96px;
+	margin-right: 117px;
 }
 .logo__link{
 	width: 106px;
@@ -490,4 +490,126 @@ align-items: center;
     display: flex;
 	margin-bottom: 10px;
 	align-items: center;
+}
+.header-contact{
+	background: #F6F6F6;
+}
+.breadcrumb{
+	max-height: 42px;
+	background: #DFDFDF;
+}
+.breadcrumb-list{
+	display: flex;
+	color: #5A5A5A;
+	margin-left: 110px;
+	opacity: 0.7;
+	padding: 7px 0;
+}
+.breadcrumb-item{
+	list-style: none;
+}
+.breadcrumb-item:not(:first-child):before{
+	content: '/';
+	padding: 4px;
+}
+.contact-main{
+	background: #F6F6F6;
+}
+.contact-main__title{
+	display: inline-block;
+	font-weight: 700;
+font-size: 40px;
+line-height: 76px;
+color: #252B42;
+border-bottom: 2px solid #6D7278;
+margin-bottom: 37px;
+}
+.contact-main__content{
+padding-left: 208px;
+width: 780px;
+}
+.content__social-list{
+	margin-bottom: 20px;
+}
+.contact-main__text{
+	font-size: 16px;
+	line-height: 28px;
+	font-weight: 400;
+	color: #A1A1A1;
+	margin-bottom: 10px;
+
+}
+.contact-main__list{
+	margin-bottom: 15px;
+}
+.contact-main__item{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 27px;
+	list-style: none;
+}
+.form__mail{
+	line-height: 28px;
+	font-weight: 600;
+	color: #363838;
+	margin-bottom: 22px;
+}
+/*.fa:before,{
+    content: '&#xf230';
+    width: 26px;
+    height: 17px;
+}*/
+.form__feedback{
+	width: 785px;
+	padding-bottom: 105px;
+}
+.feedback__input-name{
+	padding: 5px 281px 5px 16px;
+	border: 1px solid #E6E6E6;
+	border-radius: 10px;
+	max-width: 385px;
+		line-height: 28px;
+			font-weight: 400;
+	font-size: 16px;
+	color: #A1A1A1;
+	box-sizing: border-box;
+	margin-right: 10px;
+}
+.feedback__input-mail{
+	padding: 5px 277px 5px 16px;
+	border: 1px solid #E6E6E6;
+	border-radius: 10px;
+	max-width: 385px;
+		line-height: 28px;
+			font-weight: 400;
+	font-size: 16px;
+	color: #A1A1A1;
+	box-sizing: border-box;
+}
+.feedback__input-message{
+	padding: 10px 646px 80px 16px;
+	border: 1px solid #E6E6E6;
+	border-radius: 10px;
+	max-width: 782px;	
+	margin-bottom: 19px;
+	line-height: 28px;
+		font-weight: 400;
+	font-size: 16px;
+	color: #A1A1A1;
+	box-sizing: border-box;
+}
+.feedback__inner{
+	margin-bottom: 12px;
+}
+.feedback__form-btn{
+	padding: 6px 12px;
+	border: 1px solid #363838;
+	border-radius: 21px;
+	background: #363838;
+	color: #FFFFF0;
+	min-width: 171px;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 28px;
+	cursor: pointer;
 }
