@@ -447,6 +447,8 @@ margin-right: 12px;
 	box-sizing: border-box;
 	min-width: 150px;
 	color: #FFFFFF;
+	display: flex;
+    flex-direction: column;
 }
 .footer__item-title{
 	font-weight: 700;
@@ -623,4 +625,126 @@ width: 780px;
 	font-size: 16px;
 	line-height: 28px;
 	cursor: pointer;
+}
+.header-about{
+	background: #F6F6F6;
+	position: relative;
+}
+.header-about__title-inner{
+	background: linear-gradient(0deg, rgba(255, 255, 240, 0.496285), rgba(255, 255, 240, 0.496285)), url(../images/about-img1.jpg);
+	height: 299px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	margin-bottom: 130px;
+}
+.header-about__title{
+	margin: 0 auto;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 80px;
+	color: #363838;
+}
+.main__content{
+	margin-bottom: 98px;
+}
+.main__content-title{
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 60px;
+	color: #363838;
+	width: 822px;
+	margin-bottom: 20px;
+}
+.about__line{
+	width: 200px;
+	border-bottom: 1px solid #979797;
+	border-width: 2px;
+	margin-bottom: 23px;
+}
+.main__content-text{
+	padding-left: 285px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 27px;
+	color: #5A5A5A;
+	margin-bottom: 24px;
+}
+.main__content-list{
+	margin-bottom: 40px;
+}
+.main__content-img{
+	background: url(../images/about-img2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 310px;
+}
+.detail__title{
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 60px;
+	color: #363838;
+	margin-bottom: 15px;
+	width: 475px;
+}
+.detail__text{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 27px;
+	color: #5A5A5A;
+	width: 825px;
+	margin-bottom: 54px;
+}
+.detail__img-inner{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 72px;
+}
+.detail__img-item{
+	width: 190px;
+    z-index: -1;
+}
+.detail__img-list:hover .detail__img-item{
+	background: #FFFFFF;
+    opacity: 0.6;
+}
+.detail__img-list:hover .img-item__content {
+	 display: block;
+
+}
+
+.detail__img-list{
+	position: relative;
+	padding: 0 11px;
+	display: flex;
+    align-items: center;
+}
+.img-item__content{
+	position: absolute;
+	width: 190px;
+	text-align: center;
+	z-index: 1;
+	padding: 0 10px;
+    box-sizing: border-box;
+    display: none;
+}
+
+.img-item__title{
+
+	font-weight: 700;
+    font-size: 17px;
+    line-height: 16px;
+    color: #363838;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #6D7278;
+    padding-bottom: 10px;
+
+}
+.img-item__text{
+
+	font-weight: 600;
+    font-size: 10px;
+    line-height: 28px;
+    color: #363838;
 }
