@@ -493,6 +493,7 @@ align-items: center;
 }
 .header-contact{
 	background: #F6F6F6;
+	padding-bottom: 54px;
 }
 .breadcrumb{
 	max-height: 42px;
@@ -541,6 +542,16 @@ width: 780px;
 }
 .contact-main__list{
 	margin-bottom: 15px;
+}
+.fab{
+	font-size: 18px;
+}
+.content__social-item{
+	margin-right: 34px;
+}
+.form__mail .far{
+	font-size: 16px;
+	margin-right: 13px;
 }
 .contact-main__item{
 	font-weight: 400;
