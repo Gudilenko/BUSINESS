@@ -27,7 +27,7 @@
                      <li class="menu__item"><a class="menu__list-link" href="#">Contact</a></li>
                   </ul>
                </nav>
-               <img class="header__navbar" src="images/icon/navbar.svg"></img>
+               <img class="header__navbar" onclick="hideDiv();" src="images/icon/navbar.svg"></img>
             </div>
             <div class="header__content">
                <h1 class="header__title">EMPOWER YOUR BUSINESS</h1>
@@ -308,4 +308,15 @@
       node.parentNode.replaceChild(node.lastChild, node);
     }
     </script>
+     <script type="text/javascript">
+      const form = document.getElementById("menu");
+      form.style.display = 'none';
+      function hideDiv() {
+        if (form.style.display === "block") {
+          form.style.display = "none";
+        } else {
+          form.style.display = "block";
+        }
+      }
+           </script>
 </html>
