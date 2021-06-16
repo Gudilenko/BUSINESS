@@ -32,6 +32,12 @@ body{
 	height: 32px;
 	fill: #252B42;
 }
+.header__navbar{
+	display: none;
+	position: absolute;
+	right: 0;
+	cursor: pointer;
+}
 .menu__list{
 	display: flex;
 }
@@ -708,6 +714,7 @@ width: 780px;
 .detail__img-list:hover .detail__img-item{
 	background: #FFFFFF;
     opacity: 0.6;
+	transition: 0.5s;
 }
 .detail__img-list:hover .img-item__content {
 	 display: block;
@@ -748,3 +755,7 @@ width: 780px;
     line-height: 28px;
     color: #363838;
 }
+.active{
+	pointer-events: none;
+	cursor: default;
+ }
