@@ -22,7 +22,8 @@ body{
 .header__top{
 	display: flex;
 	align-items: center;
-	padding: 40px 0;			
+	padding: 40px 0;	
+	position: relative;		
 }
 .logo{
 	margin-right: 117px;
