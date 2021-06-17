@@ -898,6 +898,9 @@ width: 780px;
 	.line{
 		background: none;
 	}
+	.footer__item{
+		margin-right: 10px;
+	}
 }
 @media (max-width: 975px){
 	.header__info-img {
