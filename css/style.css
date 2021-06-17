@@ -951,6 +951,8 @@ width: 780px;
     }
     .footer__list{
     	flex-wrap: wrap;
+    }
+    .footer__item{
     	margin-bottom: 20px;
     }
 	
