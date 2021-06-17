@@ -949,6 +949,10 @@ width: 780px;
 	.contact {
     	padding: 75px 0 130px;
     }
+    .footer__list{
+    	flex-wrap: wrap;
+    	margin-bottom: 20px;
+    }
 	
 }
 @media (max-width: 900px){
@@ -1031,10 +1035,7 @@ width: 780px;
 	.brands{
 		background: #FAFAFA;
 	}
-	.footer__list{
-		flex-wrap: nowrap;
-		flex-direction: column;
-	}
+	
 	.footer__item{
 		margin-bottom: 30px;
 	}
