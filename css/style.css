@@ -1094,6 +1094,7 @@ width: 780px;
    .header__top{
 	   align-items: flex-start;
 	   background: #F7F7F7;
+	   flex-direction: column;
    }
    .menu__item{
 	   font-size: 30px;
