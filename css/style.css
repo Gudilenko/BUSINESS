@@ -786,7 +786,16 @@ width: 780px;
     .service__content {
     	padding-left: 70px;
 	}
-
+	.main__content-text{
+		padding-left: 0;
+	}
+	.detail__img-inner{
+		justify-content: flex-start;
+    	flex-wrap: wrap;
+	}
+	.detail__img-list{
+		padding: 11px 11px;
+	}
 }
  @media only screen and (max-width: 1080px){
 	
@@ -969,7 +978,7 @@ width: 780px;
 	}
 	.contact__box{
 		flex-direction: column;
-    	width: 328px;
+    	width: 320px;
     	margin: 0 auto;
 	}
 	.contact {
@@ -989,6 +998,12 @@ width: 780px;
 @media only screen and (max-width: 900px){
 	.benefits__text {
 		width: auto;
+	}
+	.main__content-title{
+		width: 600px;
+	}
+	.detail__text{
+		width: 600px;
 	}
 
 }
@@ -1120,6 +1135,14 @@ width: 780px;
 	}
 	.contact-main__content {
    		 width: 350px;
+	}
+	.main__content-title{
+		font-size: 30px;
+    	line-height: 45px;
+    	width: 500px;
+	}
+	.detail__text {
+   		 width: 500px;
 	}
 
 
@@ -1269,7 +1292,21 @@ width: 780px;
    		font-size: 16px;
 		line-height: 24px;
    	}
-
+   	.about__inner{
+   		padding: 0 10px;
+   	}
+   	.main__content-title{
+   		line-height: 40px;
+   		width: 400px;
+   	}
+   	.detail__text{
+   		width: 400px;
+   	}
+   	.detail__title{
+   		font-size: 32px;
+    	line-height: 50px;
+    	width: 380px;
+   	}
 }
  @media only screen and (max-width: 480px){
  	.box-item__img {
@@ -1306,6 +1343,15 @@ width: 780px;
 	.form__feedback {
     	width: 250px;
 	}
+	.detail__img-inner{
+		justify-content: center;
+	}
+	.detail__text {
+    	width: 300px;
+	}
+	.main__content-title{
+		width: 300px;
+	}
  }
 @media only screen and (max-width: 400px){
 	.header__content{
@@ -1328,5 +1374,32 @@ width: 780px;
 	}
 	.contact__box{
 		width: 265px;
+	}
+	.content__social-item{
+		margin-right: 15px;
+	}
+	.contact-main__text{
+		width: 278px;
+	}
+	.contact-main__content{
+		width: 270px;
+	}
+	.feedback__input-message {
+    	max-width: 300px;
+	}
+	.detail__title{
+		width: 265px;
+	}
+	.detail__text {
+   		 width: 280px;
+	}
+	.main__content-title {
+    	width: 250px;
+	}
+	.subscribe__form-input {
+    	max-width: 165px;
+    }
+    .footer .container {
+   		 padding: 0 40px;
 	}
 }
