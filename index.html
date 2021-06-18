@@ -19,7 +19,7 @@
                <a class="logo" href="#">
                 <svg role="img" class="logo__link"><use xlink:href="images/icon/sprites.svg#logo"></use></svg>
                </a>
-               <nav id="menu">
+               <nav id="menu" >
                   <ul class="menu__list">
                      <li class="menu__item"><a class="menu__list-link" href="#">Home</a></li>
                      <li class="menu__item"><a class="menu__list-link" href="#">Product</a></li>
@@ -27,7 +27,10 @@
                      <li class="menu__item"><a class="menu__list-link" href="#">Contact</a></li>
                   </ul>
                </nav>
+               
                <img class="header__navbar" onclick="hideDiv();" src="images/icon/navbar.svg"></img>
+  
+               
             </div>
             <div class="header__content">
                <h1 class="header__title">EMPOWER YOUR BUSINESS</h1>
@@ -210,18 +213,18 @@
           </div>
         </div>
       </section>
-   
+
  
  <footer class="footer">
-  <div class="container">
-    <div class="footer__block-title">
-      <div class="footer__content-title">
-      <h3 class="footer__title">Consulting Agency For Your Business</h3>
-      <p class="footer__subtitle">the quick fox jumps over the lazy dog</p>
-      </div>
-      <a class="footer__btn" href="contact.html">Contact US</a>
-    </div>
-    </div>
+          <div class="container">
+          <div class="footer__block-title">
+            <div class="footer__content-title">
+            <h3 class="footer__title">Consulting Agency For Your Business</h3>
+            <p class="footer__subtitle">the quick fox jumps over the lazy dog</p>
+            </div>
+            <a class="footer__btn" href="contact.html">Contact US</a>
+          </div>
+          </div>
           <div class="footer__nav">
             <div class="container">
               <ul class="footer__list">
@@ -257,15 +260,15 @@
                   <h5 class="footer__item-title">Get In Touch</h5>
                   <div class="footer__item-box">
                     <div class="footer__item-item">
-                    <svg role="img" class="footer__icon"><use xlink:href="images/icon/sprites.svg#icon14"></use></svg>
+                    <div class="inner__icon"><svg role="img" class="footer__icon"><use xlink:href="images/icon/sprites.svg#icon14"></use></svg></div>
                     <p class="footer__item-text">(480) 555-0103</p>
                   </div>
                   <div class="footer__item-item">
-                    <svg role="img" class="footer__icon"><use xlink:href="images/icon/sprites.svg#icon15"></use></svg>
+                    <div class="inner__icon"><svg role="img" class="footer__icon"><use xlink:href="images/icon/sprites.svg#icon15"></use></svg></div>
                     <p class="footer__item-text">4517 Washington Ave. Manchester, Kentucky 39495</p>
                   </div>
                   <div class="footer__item-item">
-                    <svg role="img" class="footer__icon"><use xlink:href="images/icon/sprites.svg#icon16"></use></svg>
+                    <div class="inner__icon"><svg role="img" class="footer__icon"><use xlink:href="images/icon/sprites.svg#icon16"></use></svg></div>
                     <p class="footer__item-text">debra.holt@example.com</p>
                   </div>
                   </div>
@@ -308,14 +311,15 @@
       node.parentNode.replaceChild(node.lastChild, node);
     }
     </script>
-     <script type="text/javascript">
-      const form = document.getElementById("menu");
-      function hideDiv() {
-        if (form.style.display === "block") {
-          form.style.display = "none";
-        } else {
-          form.style.display = "block";
-        }
-      }
-           </script>
+ <script type="text/javascript">
+const form = document.getElementById("menu");
+
+function hideDiv() {
+  if (form.style.display === "block") {
+    form.style.display = "none";
+  } else {
+    form.style.display = "block";
+  }
+}
+     </script>
 </html>

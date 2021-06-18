@@ -1307,3 +1307,26 @@ width: 780px;
     	width: 250px;
 	}
  }
+@media only screen and (max-width: 400px){
+	.header__content{
+		padding: 0px 10px;
+	}
+	.header__text{
+		font-size: 16px;
+    	line-height: 24px;
+	}
+	.header__title{
+		font-size: 35px;
+    	line-height: 50px;
+    	width: 305px;
+	}
+	.main-content__title{
+		width: 270px;
+	}
+	.service__img{
+		width: 280px;
+	}
+	.contact__box{
+		width: 265px;
+	}
+}
