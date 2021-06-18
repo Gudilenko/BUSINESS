@@ -902,6 +902,27 @@ width: 780px;
 	.footer__item{
 		margin-right: 10px;
 	}
+	.contact-main__text{
+		width: 650px;
+	}
+	.feedback__input-name{
+		padding: 5px 73px 5px 16px;
+		max-width: 300px;
+	}
+	.feedback__input-mail{
+		max-width: 300px;
+		padding: 5px 73px 5px 16px;
+	}
+	.feedback__input-message{
+		padding: 10px 383px 80px 16px;
+		max-width: 615px;
+	}
+	.contact-main__content{
+		width: 500px;
+	}
+	.form__feedback {
+    	width: 700px;
+    }
 }
 @media only screen and (max-width: 975px){
 	.header__info-img {
@@ -959,6 +980,9 @@ width: 780px;
     }
     .footer__item{
     	margin-bottom: 20px;
+    }
+    .contact-main__content{
+    	padding-left: 0;
     }
 	
 }
@@ -1025,12 +1049,36 @@ width: 780px;
     	width: 535px;
     	margin-bottom: 72px;
     }
+    .form__feedback {
+    	width: 600px;
+	}	
+	.feedback__input-name{
+		margin-bottom: 10px;
+	}
+	.contact-main__text {
+    	width: 550px;
+	}
+	.feedback__input-message{
+		max-width: 540px;
+	}
 
 }
 @media only screen and (max-width: 650px){
 	.container{
 		padding: 0 35px;
 	}
+	.form__feedback {
+   		 width: 400px;
+	}
+	.contact-main__text {
+    	width: 400px;
+	}
+	.feedback__input-message {
+    	max-width: 390px;
+	}
+	.feedback__input-message {
+    	padding: 10px 166px 80px 16px;
+    }
 	.service__img {
     	width: 485px;
 	}
@@ -1070,6 +1118,9 @@ width: 780px;
 	.logo{
 		margin-right: 0;
 	}
+	.contact-main__content {
+   		 width: 350px;
+	}
 
 
 }
@@ -1096,7 +1147,12 @@ width: 780px;
 		display: block;
 		margin: 0 34px 0 68px;
 	}
-
+	.contact-main{
+		padding: 0 30px;
+	}
+	.feedback__input-message {
+   		 max-width: 340px;
+	}
 	.menu__list {
 	   display: flex;
 	   flex-direction: column;
@@ -1233,5 +1289,20 @@ width: 780px;
 	.subscribe__form-input{
 		max-width: 220px;
 		padding: 15px 19px 15px 20px;
+	}
+	.contact-main__text{
+		font-size: 14px;
+    	line-height: 26px;
+    	width: 350px;
+	}
+	.contact-main__item{
+		font-size: 15px;
+    	line-height: 23px;
+	}
+	.contact-main {
+    	padding: 0 20px;
+	}
+	.form__feedback {
+    	width: 250px;
 	}
  }
