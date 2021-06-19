@@ -756,10 +756,27 @@ width: 780px;
 	pointer-events: none;
 	cursor: default;
  }
+
  .header__info-box:hover{
  	background-color: #00A0C1;
+ }
+ .header__info-box:hover .header__info-title{
  	color: #FFFFFF;
+ }
+  .header__info-box:hover .header__info-text{
+ 	color: #FFFFFF;
+ }
+ .header__info-box:hover .header__info-img{
  	fill: #FFFFFF;
+ }
+ .brands__img:hover{
+ 	fill: #FFA62B;
+ }
+ .menu__list-link:hover{
+ 	border-bottom: 2px solid #737373;
+ }
+ a.footer__item-text:hover{
+ 	text-decoration: underline solid #FFFFFF 2px;
  }
 @media only screen and (max-width: 1275px){
 	.subscribe__title{
@@ -881,7 +898,7 @@ width: 780px;
     	width: 400px;
     }
     .advice__box-item{
-    	height: auto;
+    	height: 400px;
    		margin-bottom: 30px;
    		align-items: center;
     }
