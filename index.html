@@ -4,8 +4,11 @@
       <meta charset=UTF-8>
       <meta name="viewport" content="width=device-width, height=device-height, target-densitydpi=device-dpi, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <title></title>
+      <title>Indicorp - поможем вашему бизнесу</title>
+      <meta name="description" content="Мы предлагаем вам решение именно ваших проблем - мы выявляем недостатки, предлагаем решения, анализируем возможные влияния, внедряем изменения и отслеживаем корректность и эффективность результатов.">
+      <meta name="keywords" content="Риск-менеджмент, Взыскание, Управление Ценностью Клиента">
       <script src="dist/svg4everybody.legacy.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <link rel="shortcut icon" type="image/png" sizes="96x96" href="images/icon/favicons/android-chrome-96x96.png">
      <link rel="shortcut icon" type="image/png" sizes="32x32" href="images/icon/favicons/favicon-32x32.png">
      <link rel="shortcut icon" type="image/png" sizes="16x16" href="images/icon/favicons/favicon-16x16.png">
@@ -109,28 +112,28 @@
               <h5 class="box-item__title">Надёжная информация</h5>
               <p class="box-item__text">Получай информацию только от&nbsp;проверенных источников.</p>
               </div>
-              <img class="box-item__img" src="images/img1.jpg" alt="Надёжный источник информации" title="Надёжный источник информации"></img>
+              <div class="box-item__img-inner"><img class="box-item__img" src="images/img1.jpg" alt="Надёжный источник информации" title="Надёжный источник информации"></img></div>
             </div>
               <div class="advice__box-item">
                 <div class="box-item__inner">
               <h5 class="box-item__title">Работайте лучше вместе</h5>
               <p class="box-item__text">Самое умное бизнес-решение&nbsp;&mdash; нанять квалифицированных сотрудников.</p>
               </div>
-              <img class="box-item__img" src="images/img2.jpg" alt="Командная работа" title="Командная работа"></img>
+              <div class="box-item__img-inner"><img class="box-item__img" src="images/img2.jpg" alt="Командная работа" title="Командная работа"></img></div>
             </div>
               <div class="advice__box-item">
                 <div class="box-item__inner">
               <h5 class="box-item__title">Мотивация</h5>
               <p class="box-item__text">Хватит вести себя так, как будто вам осталось жить 500&nbsp;лет.</p>
               </div>
-              <img class="box-item__img" src="images/img3.jpg" alt="Успей все сделать" title="Успей все сделать"></img>
+              <div class="box-item__img-inner"><img class="box-item__img" src="images/img3.jpg" alt="Успей все сделать" title="Успей все сделать"></img></div>
             </div>
               <div class="advice__box-item">
                 <div class="box-item__inner">
               <h5 class="box-item__title">Разбирайся в своем деле</h5>
               <p class="box-item__text">Найди тех, кто тебе поможет.</p>
               </div>
-              <img class="box-item__img" src="images/img4.jpg" alt="Научись в своем деле" title="Научись в своем деле"></img>
+              <div class="box-item__img-inner"><img class="box-item__img" src="images/img4.jpg" alt="Научись в своем деле" title="Научись в своем деле"></img></div>
             </div>
           </div>
         </div>
@@ -185,8 +188,8 @@
         <div class="subscribe__block">
           <h3 class="subscribe__title">Подпишитесь на&nbsp;рассылку</h3>
           <form class="subscribe__form" action="#">
-            <input class="subscribe__form-input" type="text" placeholder="Введите email">
-            <button class="subscribe__form-btn" type="submit">Подписаться</button>
+            <input class="subscribe__form-input" type="text" id="subscribe__text" placeholder="Введите email">
+            <button class="subscribe__form-btn" type="submit" id="subscribe__submit">Подписаться</button>
           </form>
         </div>
         </div>
@@ -287,10 +290,10 @@
           <div class="footer__block-footer">
             <p class="block-footer__text">© 2021–2021 Indicorp. Все права защищены</p>
             <div class="block-footer__social-list">
-              <a class="block-footer__social-item" href="https://www.facebook.com/"><img class="social-item__img" src="images/icon/social/facebook.svg" title="facebook" alt="facebook" /></a>
-              <a class="block-footer__social-item" href="https://www.instagram.com/"><img class="social-item__img" src="images/icon/social/instagram.svg" title="instagram" alt="instagram" /></a>
-              <a class="block-footer__social-item" href="https://twitter.com/"><img class="social-item__img" src="images/icon/social/twitter.svg" title="twitter" alt="twitter" /></a>
-              <a class="block-footer__social-item" href="https://www.youtube.com/"><img class="social-item__img" src="images/icon/social/youtube.svg" title="youtube" alt="youtube" /></a>
+              <a class="block-footer__social-item" href="https://www.facebook.com/"><img class="social-item__img" src="images/icon/social/facebook.svg" title="facebook" /></a>
+              <a class="block-footer__social-item" href="https://www.instagram.com/"><img class="social-item__img" src="images/icon/social/instagram.svg" title="instagram" /></a>
+              <a class="block-footer__social-item" href="https://twitter.com/"><img class="social-item__img" src="images/icon/social/twitter.svg" title="twitter" /></a>
+              <a class="block-footer__social-item" href="https://www.youtube.com/"><img class="social-item__img" src="images/icon/social/youtube.svg" title="youtube" /></a>
             </div>
           </div>
         </div>
@@ -320,11 +323,44 @@
 const form = document.getElementById("menu");
 
 function hideDiv() {
-  if (document.documentElement.clientWidth > 560 & form.style.display === "block") {
+  if (form.style.display === "block") {
     form.style.display = "none";
+     return false; 
   } else {
     form.style.display = "block";
+     return false; 
   }
 }
      </script>
+<script>
+  (function(d){
+  var button = d.querySelector('#subscribe__submit'),
+      phoneField = d.querySelector('#subscribe__text'),
+      checkPhone = function() {
+        if (phoneField.value.length > 0) {
+          alert('Спасибо за подписку!');
+        } else {
+          alert('Необходимо ввести свой e-mail.');
+        }
+      }
+
+  button.addEventListener('click', checkPhone)
+})(document)
+</script>
+<script>
+$(document).ready(function() {
+$('.block-item__btn, .main-block-item__btn').click(function() {
+alert('Спасибо за ваш запрос');
+ return false; // вернем false тогда переход по урлу не будет
+})
+});
+</script>
+<script>
+$(document).ready(function() {
+$('.get-btn').click(function() {
+alert('При выборе ниши стоит знать, что бизнес главным образом подразделяется на 3 сферы — сфера производства, сфера торговли и сфера услуг.');
+ return false; // вернем false тогда переход по урлу не будет
+})
+});
+</script>
 </html>
