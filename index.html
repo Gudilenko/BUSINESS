@@ -42,10 +42,10 @@
            <div class="header__inner">
             <div class="header__content">
                <h1 class="header__title">Усильте свой бизнес</h1>
-               <p class="header__text">Мы&nbsp;поможем и&nbsp;расскажем, как нужно действовать в&nbsp;развитии вашего объекта.</p>
+               <p class="header__text">Мы&nbsp;поможем и&nbsp;расскажем, как нужно действовать в&nbsp;развитии вашего проекта.</p>
                <div class="header__button">
                   <a class="get-btn" href="#">Получить сейчас</a>
-                  <a class="more-btn" href="#">Узнать больше</a>
+                  <a class="more-btn" href="public.html">Узнать больше</a>
                </div>
             </div>
             <div class="header__info">
@@ -78,22 +78,22 @@
                <div class="choice__benefits-box">
                   <div class="choice__benefits-item">
                     <svg role="img" class="benefits__img"><use xlink:href="images/icon/sprites.svg#icon4"></use></svg>
-                     <h2 class="benefits__title">3K</h2>
+                     <h2 class="benefits__title" id="deal" data-duration="5000">20K</h2>
                      <p class="benefits__text">Сделок</p>
                   </div>
                   <div class="choice__benefits-item">
                     <svg role="img" class="benefits__img"><use xlink:href="images/icon/sprites.svg#icon5"></use></svg>
-                     <h2 class="benefits__title">45</h2>
+                     <h2 class="benefits__title" id="client" data-duration="5000">88</h2>
                      <p class="benefits__text">Клиентов</p>
                   </div>
                   <div class="choice__benefits-item">
                     <svg role="img" class="benefits__img"><use xlink:href="images/icon/sprites.svg#icon6"></use></svg>
-                     <h2 class="benefits__title">12+</h2>
+                     <h2 class="benefits__title" id="awards" data-duration="5000">32</h2>
                      <p class="benefits__text">Наград</p>
                   </div>
                   <div class="choice__benefits-item">
                     <svg role="img" class="benefits__img"><use xlink:href="images/icon/sprites.svg#icon1"></use></svg>
-                     <h2 class="benefits__title">1.5K</h2>
+                     <h2 class="benefits__title" id="cases" data-duration="4000">3.5K</h2>
                      <p class="benefits__text">Закрытых дел</p>
                   </div>
                </div>
@@ -359,8 +359,58 @@ alert('Спасибо за ваш запрос');
 $(document).ready(function() {
 $('.get-btn').click(function() {
 alert('При выборе ниши стоит знать, что бизнес главным образом подразделяется на 3 сферы — сфера производства, сфера торговли и сфера услуг.');
- return false; // вернем false тогда переход по урлу не будет
+ return true; // вернем false тогда переход по урлу не будет
 })
 });
 </script>
+<script>
+$('#deal').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: Number($(this).attr("data-duration")),
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+});
+
+$('#client').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: Number($(this).attr("data-duration")),
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+});
+
+$('#awards').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: Number($(this).attr("data-duration")),
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+});
+
+$('#cases').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: Number($(this).attr("data-duration")),
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+});
+</script>
+
 </html>
