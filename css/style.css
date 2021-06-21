@@ -1669,6 +1669,9 @@ a.block-item__text:hover {
 		font-size: 14px;
 		line-height: 20px;
 	}
+	.footer__block-footer{
+		align-items: center;
+	}
 }
 
 @media only screen and (max-width: 720px) {
@@ -1734,9 +1737,9 @@ a.block-item__text:hover {
 		margin-bottom: 30px;
 	}
 	.footer__block-footer {
-		-webkit-box-align: start;
-		    -ms-flex-align: start;
-		        align-items: start;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
 		-webkit-box-orient: vertical;
 		-webkit-box-direction: normal;
 		    -ms-flex-direction: column;
@@ -1955,6 +1958,8 @@ a.block-item__text:hover {
 	}
 	.main-content__title {
 		width: 310px;
+		font-size: 22px;
+    	line-height: 38px;
 	}
 	.service__img {
 		width: 280px;
@@ -1996,5 +2001,8 @@ a.block-item__text:hover {
 	.public__content-title {
 		font-size: 22px;
 		line-height: 22px;
+	}
+	.header__info{
+		margin: 0;
 	}
 }
