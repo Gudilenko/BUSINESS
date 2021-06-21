@@ -7,171 +7,152 @@
       <title>Контакты | Indicorp</title>
       <meta name="description" content="Мы предлагаем вам решение именно ваших проблем - мы выявляем недостатки, предлагаем решения, анализируем возможные влияния, внедряем изменения и отслеживаем корректность и эффективность результатов.">
       <meta name="keywords" content="Контакты Indicorp">
-      <script src="dist/svg4everybody.legacy.js"></script>
       <link rel="shortcut icon" type="image/png" sizes="96x96" href="images/icon/favicons/android-chrome-96x96.png">
-     <link rel="shortcut icon" type="image/png" sizes="32x32" href="images/icon/favicons/favicon-32x32.png">
-     <link rel="shortcut icon" type="image/png" sizes="16x16" href="images/icon/favicons/favicon-16x16.png">
+      <link rel="shortcut icon" type="image/png" sizes="32x32" href="images/icon/favicons/favicon-32x32.png">
+      <link rel="shortcut icon" type="image/png" sizes="16x16" href="images/icon/favicons/favicon-16x16.png">
       <link rel="preconnect" href="https://fonts.gstatic.com">
       <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="css/reset.css">
       <link rel="stylesheet" href="css/normalize.css">
       <link rel="stylesheet" href="css/style.css">
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
-      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+         integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="dist/svg4everybody.legacy.js"></script>
    </head>
    <body>
       <header class="header-contact">
          <div class="container">
             <div class="header__top">
-               <a class="logo" href="/">
-                <svg role="img" class="logo__link"><use xlink:href="images/icon/sprites.svg#logo"></use></svg>
+               <a class="logo" href="/" title="logo">
+                  <svg role="img" class="logo__link">
+                     <use xlink:href="images/icon/sprites.svg#logo"></use>
+                  </svg>
                </a>
                <nav id="menu">
                   <ul class="menu__list">
-                     <li class="menu__item"><a class="menu__list-link" href="index.html">Главная</a></li>
-                     <li class="menu__item"><a class="menu__list-link" href="about.html">О нас</a></li>
+                     <li class="menu__item"><a class="menu__list-link" href="index.html" title="Главная">Главная</a></li>
+                     <li class="menu__item"><a class="menu__list-link" href="about.html" title="О нас">О нас</a></li>
                   </ul>
                </nav>
-
-               <img class="header__navbar" onclick="hideDiv();" src="images/icon/navbar.svg"></img>
-
+               <img class="header__navbar" onclick="hideDiv();" src="images/icon/navbar.svg" alt="Навигация" title="Навигация">
             </div>
-            </div>
-            <div class="breadcrumb">
-              <div class="container">
-                <ul class="breadcrumb-list">
-                    <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
-                    <li class="breadcrumb-item active"><a href="/">Контакты</a></li> 
-                </ul>
-            </div>
-          </div>
-        </header>
-        <main class="contact-main">
-          <div class="container">
-            <div class="main__inner">
-            <h1 class="contact-main__title">Контакты</h1>
-            <div class="contact-main__content">
-              <div class="content__social-list">
-                <a class="content__social-item" href="https://www.facebook.com/" title="facebook"><i class="fab fa-facebook"></i></a>
-                <a class="content__social-item" href="https://www.instagram.com/" title="instagram"><i class="fab fa-instagram"></i></a>
-                <a class="content__social-item" href="https://www.pinterest.com/" title="pinterest"><i class="fab fa-pinterest"></i></a>
-                <a class="content__social-item" href="https://www.whatsapp.com/" title="whatsapp"><i class="fab fa-whatsapp"></i></a>
-                <a class="content__social-item" href="https://www.youtube.com/" title="youtube"><i class="fab fa-youtube"></i></a>
-              </div>
-              <p class="contact-main__text">Наши офисы расположены в&nbsp;Праге (Чехия) и&nbsp;в&nbsp;Москве (Россия), но&nbsp;мы&nbsp;готовы работать с&nbsp;клиентами в&nbsp;любом географическом регионе.</p>
-              <ul class="contact-main__list">
-                <li class="contact-main__item"><a href="tel:+375294886036">+375 (29) 488-60-36</a></li>
-                <li class="contact-main__item">ул. Прудникова, д.62, к.1</li>
-              </ul>
-                <p class="form__mail"><i class="far fa-envelope"></i><a href="mailto:business@gmail.com" title="e-mail">business@gmail.com</a></p>
-                <form class="form__feedback" action="#">
-                  <div class="feedback__inner">
-                  <input class="feedback__input-name" type="text" placeholder="Ваше имя">
-                  <input class="feedback__input-mail" type="text" placeholder="Ваш e-mail">
-                  </div>
-                  <input class="feedback__input-message" type="text" placeholder="Введите текст">
-                  <button class="feedback__form-btn" type="submit">Отправить</button>
-                </form>
-            </div>
-          </div>
-        </div>
-        </main>
-<footer class="footer">
-          <div class="footer__nav">
+         </div>
+         <div class="breadcrumb">
             <div class="container">
-              <ul class="footer__list">
-                <li class="footer__item">
-                  <h5 class="footer__item-title">О компании</h5>
-                  <a class="footer__item-text" href="about.html" alt="О нас">О нас</a>
-                  <a class="footer__item-text" href="contact.html" alt="Контакты">Контакты</a>
-                  <p class="footer__item-text">We are hiring</p>
-                  <p class="footer__item-text">Blog</p>
-                </li>
-                <li class="footer__item">
-                  <h5 class="footer__item-title">Юридический</h5>
-                  <p class="footer__item-text">About Us</p>
-                  <p class="footer__item-text">Carrier</p>
-                  <p class="footer__item-text">We are hiring</p>
-                  <p class="footer__item-text">Blog</p>
-                </li>
-                <li class="footer__item">
-                  <h5 class="footer__item-title">Функции</h5>
-                  <p class="footer__item-text">Business Marketing</p>
-                  <p class="footer__item-text">User Analytic</p>
-                  <p class="footer__item-text">Live Chat</p>
-                  <p class="footer__item-text">Unlimited Support</p>
-                </li>
-                <li class="footer__item">
-                  <h5 class="footer__item-title">Ресурсы</h5>
-                  <p class="footer__item-text">IOS & Android</p>
-                  <p class="footer__item-text">Watch a Demo</p>
-                  <p class="footer__item-text">Customers</p>
-                  <p class="footer__item-text">API</p>
-                </li>
-                <li class="footer__item">
-                  <h5 class="footer__item-title">Обратная связь</h5>
-                  <div class="footer__item-box">
-                    <div class="footer__item-item">
-                    <div class="inner__icon"><svg role="img" class="footer__icon"><use xlink:href="images/icon/sprites.svg#icon14"></use></svg></div>
-                    <a class="footer__item-text" href="tel:+375294886036">+375 (29) 488-60-36</a>
-                  </div>
-                  <div class="footer__item-item">
-                    <div class="inner__icon"><svg role="img" class="footer__icon"><use xlink:href="images/icon/sprites.svg#icon15"></use></svg></div>
-                    <p class="footer__item-text">ул. Прудникова, д.62, к.1</p>
-                  </div>
-                  <div class="footer__item-item">
-                    <div class="inner__icon"><svg role="img" class="footer__icon"><use xlink:href="images/icon/sprites.svg#icon16"></use></svg></div>
-                    <a class="footer__item-text" href="mailto:business@gmail.com">business@gmail.com</a>
-                  </div>
-                  </div>
-                </div>
-                </li>
-            </ul>
-          </div>
-          </div>
-          <div class="container">
-          <div class="footer__block-footer">
-            <p class="block-footer__text">© 2021–2021 Indicorp. Все права защищены</p>
-            <div class="block-footer__social-list">
-              <a class="block-footer__social-item" href="https://www.facebook.com/"><img class="social-item__img" src="images/icon/social/facebook.svg" title="facebook" /></a>
-              <a class="block-footer__social-item" href="https://www.instagram.com/"><img class="social-item__img" src="images/icon/social/instagram.svg" title="instagram" /></a>
-              <a class="block-footer__social-item" href="https://twitter.com/"><img class="social-item__img" src="images/icon/social/twitter.svg" title="twitter" /></a>
-              <a class="block-footer__social-item" href="https://www.youtube.com/"><img class="social-item__img" src="images/icon/social/youtube.svg" title="youtube" /></a>
+               <ul class="breadcrumb-list">
+                  <li class="breadcrumb-item"><a href="index.html" title="Главная">Главная</a></li>
+                  <li class="breadcrumb-item active"><a href="/" title="Контакты">Контакты</a></li>
+               </ul>
             </div>
-          </div>
-        </div>
-
+         </div>
+      </header>
+      <main class="contact-main">
+         <div class="container">
+            <div class="main__inner">
+               <h1 class="contact-main__title">Контакты</h1>
+               <div class="contact-main__content">
+                  <div class="content__social-list">
+                     <a class="content__social-item" href="https://www.facebook.com/" title="facebook"><i class="fab fa-facebook"></i></a>
+                     <a class="content__social-item" href="https://www.instagram.com/" title="instagram"><i class="fab fa-instagram"></i></a>
+                     <a class="content__social-item" href="https://www.pinterest.com/" title="pinterest"><i class="fab fa-pinterest"></i></a>
+                     <a class="content__social-item" href="https://www.whatsapp.com/" title="whatsapp"><i class="fab fa-whatsapp"></i></a>
+                     <a class="content__social-item" href="https://www.youtube.com/" title="youtube"><i class="fab fa-youtube"></i></a>
+                  </div>
+                  <p class="contact-main__text">Наши офисы расположены в&nbsp;Праге (Чехия) и&nbsp;в&nbsp;Москве (Россия), но&nbsp;мы&nbsp;готовы работать с&nbsp;клиентами в&nbsp;любом географическом регионе.</p>
+                  <ul class="contact-main__list">
+                     <li class="contact-main__item"><a href="tel:+375294886036" title="Номер телефона">+375 (29) 488-60-36</a></li>
+                     <li class="contact-main__item">ул. Прудникова, д.62, к.1</li>
+                  </ul>
+                  <p class="form__mail"><i class="far fa-envelope"></i><a href="mailto:business@gmail.com" title="e-mail">business@gmail.com</a></p>
+                  <form class="form__feedback" action="#">
+                     <div class="feedback__inner">
+                        <input class="feedback__input-name" type="text" placeholder="Ваше имя">
+                        <input class="feedback__input-mail" type="text" placeholder="Ваш e-mail">
+                     </div>
+                     <input class="feedback__input-message" type="text" placeholder="Введите текст">
+                     <button class="feedback__form-btn" type="submit">Отправить</button>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </main>
+      <footer class="footer">
+         <div class="footer__nav">
+            <div class="container">
+               <ul class="footer__list">
+                  <li class="footer__item">
+                     <h5 class="footer__item-title">О компании</h5>
+                     <a class="footer__item-text" href="about.html" title="О нас">О нас</a>
+                     <a class="footer__item-text" href="contact.html" title="Контакты">Контакты</a>
+                     <p class="footer__item-text">We are hiring</p>
+                     <p class="footer__item-text">Blog</p>
+                  </li>
+                  <li class="footer__item">
+                     <h5 class="footer__item-title">Юридический</h5>
+                     <p class="footer__item-text">About Us</p>
+                     <p class="footer__item-text">Carrier</p>
+                     <p class="footer__item-text">We are hiring</p>
+                     <p class="footer__item-text">Blog</p>
+                  </li>
+                  <li class="footer__item">
+                     <h5 class="footer__item-title">Функции</h5>
+                     <p class="footer__item-text">Business Marketing</p>
+                     <p class="footer__item-text">User Analytic</p>
+                     <p class="footer__item-text">Live Chat</p>
+                     <p class="footer__item-text">Unlimited Support</p>
+                  </li>
+                  <li class="footer__item">
+                     <h5 class="footer__item-title">Ресурсы</h5>
+                     <p class="footer__item-text">IOS & Android</p>
+                     <p class="footer__item-text">Watch a Demo</p>
+                     <p class="footer__item-text">Customers</p>
+                     <p class="footer__item-text">API</p>
+                  </li>
+                  <li class="footer__item">
+                     <h5 class="footer__item-title">Обратная связь</h5>
+                     <div class="footer__item-box">
+                        <div class="footer__item-item">
+                           <div class="inner__icon">
+                              <svg role="img" class="footer__icon">
+                                 <use xlink:href="images/icon/sprites.svg#icon14"></use>
+                              </svg>
+                           </div>
+                           <a class="footer__item-text" href="tel:+375294886036" title="Номер телефона">+375 (29) 488-60-36</a>
+                        </div>
+                        <div class="footer__item-item">
+                           <div class="inner__icon">
+                              <svg role="img" class="footer__icon">
+                                 <use xlink:href="images/icon/sprites.svg#icon15"></use>
+                              </svg>
+                           </div>
+                           <p class="footer__item-text">ул. Прудникова, д.62, к.1</p>
+                        </div>
+                        <div class="footer__item-item">
+                           <div class="inner__icon">
+                              <svg role="img" class="footer__icon">
+                                 <use xlink:href="images/icon/sprites.svg#icon16"></use>
+                              </svg>
+                           </div>
+                           <a class="footer__item-text" href="mailto:business@gmail.com" title="Почтовый адрес">business@gmail.com</a>
+                        </div>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+         </div>
+         <div class="container">
+            <div class="footer__block-footer">
+               <p class="block-footer__text">© 2021–2021 Indicorp. Все права защищены</p>
+               <div class="block-footer__social-list">
+                  <a class="block-footer__social-item" href="https://www.facebook.com/"><img class="social-item__img" src="images/icon/social/facebook.svg" title="facebook" /></a>
+                  <a class="block-footer__social-item" href="https://www.instagram.com/"><img class="social-item__img" src="images/icon/social/instagram.svg" title="instagram" /></a>
+                  <a class="block-footer__social-item" href="https://twitter.com/"><img class="social-item__img" src="images/icon/social/twitter.svg" title="twitter" /></a>
+                  <a class="block-footer__social-item" href="https://www.youtube.com/"><img class="social-item__img" src="images/icon/social/youtube.svg" title="youtube" /></a>
+               </div>
+            </div>
+         </div>
       </footer>
+      <script src="dist/js/custom.min.js"></script>
    </body>
-   <script>
-    if (location.hash === '') {
-      svg4everybody();
-    } else if (location.hash === '#fill') {
-      svg4everybody({
-        polyfill: true
-      });
-    } else if (location.hash === '#oldie') {
-      svg4everybody({
-        nosvg: true,
-        polyfill: true
-      });
-    }
-    
-    function addSVG(node, href) {
-      node.innerHTML ='<' + 'svg role="presentation"' + '><' + 'use xlink:href="' + href + '"/' + '><' + '/svg' + '>';
-      node.parentNode.replaceChild(node.lastChild, node);
-    }
-    </script>
-     <script type="text/javascript">
-const form = document.getElementById("menu");
-
-function hideDiv() {
-  if (form.style.display === "block") {
-    form.style.display = "none";
-  } else {
-    form.style.display = "block";
-  }
-}
-     </script>
-     
 </html>

@@ -7,410 +7,340 @@
       <title>Indicorp - поможем вашему бизнесу</title>
       <meta name="description" content="Мы предлагаем вам решение именно ваших проблем - мы выявляем недостатки, предлагаем решения, анализируем возможные влияния, внедряем изменения и отслеживаем корректность и эффективность результатов.">
       <meta name="keywords" content="Риск-менеджмент, Взыскание, Управление Ценностью Клиента">
-      <script src="dist/svg4everybody.legacy.js"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <link rel="shortcut icon" type="image/png" sizes="96x96" href="images/icon/favicons/android-chrome-96x96.png">
-     <link rel="shortcut icon" type="image/png" sizes="32x32" href="images/icon/favicons/favicon-32x32.png">
-     <link rel="shortcut icon" type="image/png" sizes="16x16" href="images/icon/favicons/favicon-16x16.png">
+      <link rel="shortcut icon" type="image/png" sizes="32x32" href="images/icon/favicons/favicon-32x32.png">
+      <link rel="shortcut icon" type="image/png" sizes="16x16" href="images/icon/favicons/favicon-16x16.png">
       <link rel="preconnect" href="https://fonts.gstatic.com">
       <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="css/reset.css">
       <link rel="stylesheet" href="css/normalize.css">
       <link rel="stylesheet" href="css/style.css">
+      <script src="dist/svg4everybody.legacy.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
    </head>
    <body>
       <header class="header">
          <div class="container">
-
             <div class="header__top">
-               <a class="logo" href="/">
-                <svg role="img" class="logo__link"><use xlink:href="images/icon/sprites.svg#logo"></use></svg>
+               <a class="logo" href="/" title="logo">
+                  <svg role="img" class="logo__link">
+                     <use xlink:href="images/icon/sprites.svg#logo"></use>
+                  </svg>
                </a>
-               <nav id="menu" >
+               <nav id="menu">
                   <ul class="menu__list">
-                     <li class="menu__item"><a class="menu__list-link" href="#anchor-1">Информация</a></li>
-                     <li class="menu__item"><a class="menu__list-link" href="#anchor-2">Бизнес-сервис</a></li>
-                     <li class="menu__item"><a class="menu__list-link" href="#anchor-3">Нам доверяют</a></li>
-                     <li class="menu__item"><a class="menu__list-link" href="#anchor-4">Контакты</a></li>
+                     <li class="menu__item"><a class="menu__list-link" href="#anchor-1" title="Информация">Информация</a></li>
+                     <li class="menu__item"><a class="menu__list-link" href="#anchor-2" title="Бизнес-сервис">Бизнес-сервис</a></li>
+                     <li class="menu__item"><a class="menu__list-link" href="#anchor-3" title="Нам доверяют">Нам доверяют</a></li>
+                     <li class="menu__item"><a class="menu__list-link" href="#anchor-4" title="Контакты">Контакты</a></li>
                   </ul>
                </nav>
-               
-               <img class="header__navbar" onclick="hideDiv();" src="images/icon/navbar.svg"></img>
-  
-               
+               <img class="header__navbar" onclick="hideDiv();" src="images/icon/navbar.svg" alt="Навигация" title="Навигация">
             </div>
-           <div class="header__inner">
-            <div class="header__content">
-               <h1 class="header__title">Усильте свой бизнес</h1>
-               <p class="header__text">Мы&nbsp;поможем и&nbsp;расскажем, как нужно действовать в&nbsp;развитии вашего проекта.</p>
-               <div class="header__button">
-                  <a class="get-btn" href="#">Получить сейчас</a>
-                  <a class="more-btn" href="public.html">Узнать больше</a>
+            <div class="header__inner">
+               <div class="header__content">
+                  <h1 class="header__title">Усильте свой бизнес</h1>
+                  <p class="header__text">Мы&nbsp;поможем и&nbsp;расскажем как нужно действовать в&nbsp;развитии вашего проекта.</p>
+                  <div class="header__button">
+                     <a class="get-btn" href="#" title="Получить цитату">Получить сейчас</a>
+                     <a class="more-btn" href="public.html" title="Подробнее о новости">Узнать больше</a>
+                  </div>
                </div>
-            </div>
-            <div class="header__info">
-               <div class="header__info-box">
-                  <svg role="img" class="header__info-img"><use xlink:href="images/icon/sprites.svg#icon1"></use></svg>
-                  <h3 class="header__info-title">Маркетинг</h3>
-                  <p class="header__info-text">Мы&nbsp;ориентируемся на&nbsp;эргономику и&nbsp;встречу вас там, где вы&nbsp;работаете.</p>
-               </div>
-               <div class="header__info-box">
-                <svg role="img" class="header__info-img"><use xlink:href="images/icon/sprites.svg#icon2"></use></svg>
-                  <h3 class="header__info-title">50&nbsp;лучших фирм</h3>
-                  <p class="header__info-text">Просто напишите, что у&nbsp;вас на&nbsp;уме, и&nbsp;мы&nbsp;все сделаем.</p>
-               </div>
-               <div class="header__info-box">
-                  <svg role="img" class="header__info-img"><use xlink:href="images/icon/sprites.svg#icon3"></use></svg>
-                  <h3 class="header__info-title">Финансы</h3>
-                  <p class="header__info-text">Расскажем как и&nbsp;куда вам нужно двигаться с&nbsp;вашим капиталом.</p>
-               </div>
+               <div class="header__info">
+                  <div class="header__info-box">
+                     <svg role="img" class="header__info-img">
+                        <use xlink:href="images/icon/sprites.svg#icon1"></use>
+                     </svg>
+                     <h3 class="header__info-title">Маркетинг</h3>
+                     <p class="header__info-text">Мы&nbsp;ориентируемся на&nbsp;эргономику и&nbsp;встречу вас там, где вы&nbsp;работаете.</p>
+                  </div>
+                  <div class="header__info-box">
+                     <svg role="img" class="header__info-img">
+                        <use xlink:href="images/icon/sprites.svg#icon2"></use>
+                     </svg>
+                     <h3 class="header__info-title">50&nbsp;лучших фирм</h3>
+                     <p class="header__info-text">Просто напишите, что у&nbsp;вас на&nbsp;уме, и&nbsp;мы&nbsp;все сделаем.</p>
+                  </div>
+                  <div class="header__info-box">
+                     <svg role="img" class="header__info-img">
+                        <use xlink:href="images/icon/sprites.svg#icon3"></use>
+                     </svg>
+                     <h3 class="header__info-title">Финансы</h3>
+                     <p class="header__info-text">Расскажем, как и&nbsp;куда вам нужно двигаться с&nbsp;вашим капиталом.</p>
+                  </div>
                </div>
             </div>
          </div>
       </header>
       <section class="choice">
          <div class="container">
-          <div class="main__inner">
+            <div class="main__inner">
                <div class="main-content" id="anchor-1">
                   <h2 class="main-content__title">Почему именно мы?</h2>
                   <p class="main-content__text">Мы&nbsp;предлагаем глубокое погружение в&nbsp;суть ваших проблем и&nbsp;потенциал опытных специалистов-профессионалов. </p>
                </div>
                <div class="choice__benefits-box">
                   <div class="choice__benefits-item">
-                    <svg role="img" class="benefits__img"><use xlink:href="images/icon/sprites.svg#icon4"></use></svg>
+                     <svg role="img" class="benefits__img">
+                        <use xlink:href="images/icon/sprites.svg#icon4"></use>
+                     </svg>
                      <h2 class="benefits__title" id="deal" data-duration="5000">20K</h2>
                      <p class="benefits__text">Сделок</p>
                   </div>
                   <div class="choice__benefits-item">
-                    <svg role="img" class="benefits__img"><use xlink:href="images/icon/sprites.svg#icon5"></use></svg>
+                     <svg role="img" class="benefits__img">
+                        <use xlink:href="images/icon/sprites.svg#icon5"></use>
+                     </svg>
                      <h2 class="benefits__title" id="client" data-duration="5000">88</h2>
                      <p class="benefits__text">Клиентов</p>
                   </div>
                   <div class="choice__benefits-item">
-                    <svg role="img" class="benefits__img"><use xlink:href="images/icon/sprites.svg#icon6"></use></svg>
+                     <svg role="img" class="benefits__img">
+                        <use xlink:href="images/icon/sprites.svg#icon6"></use>
+                     </svg>
                      <h2 class="benefits__title" id="awards" data-duration="5000">32</h2>
                      <p class="benefits__text">Наград</p>
                   </div>
                   <div class="choice__benefits-item">
-                    <svg role="img" class="benefits__img"><use xlink:href="images/icon/sprites.svg#icon1"></use></svg>
+                     <svg role="img" class="benefits__img">
+                        <use xlink:href="images/icon/sprites.svg#icon1"></use>
+                     </svg>
                      <h2 class="benefits__title" id="cases" data-duration="4000">3.5K</h2>
                      <p class="benefits__text">Закрытых дел</p>
                   </div>
                </div>
-          </div>
+            </div>
          </div>
       </section>
       <section class="advice">
-        <div class="container">
-          <div class="main-content">
-                  <h2 class="main-content__title">Практический совет</h2>
-                  <p class="main-content__text">Каждый хочет знать секрет успеха. Но&nbsp;если&nbsp;бы успех приходил по&nbsp;щелчку пальцев&nbsp;&mdash; то&nbsp;все были&nbsp;бы миллиардерами и&nbsp;генеральными директорами.</p>
+         <div class="container">
+            <div class="main-content">
+               <h2 class="main-content__title">Практический совет</h2>
+               <p class="main-content__text">Каждый хочет знать секрет успеха. Но&nbsp;если&nbsp;бы успех приходил по&nbsp;щелчку пальцев&nbsp;&mdash; то&nbsp;все были&nbsp;бы миллиардерами и&nbsp;генеральными директорами.</p>
+            </div>
+            <div class="advice__box">
+               <div class="advice__box-item">
+                  <div class="box-item__inner">
+                     <h5 class="box-item__title">Надёжная информация</h5>
+                     <p class="box-item__text">Получай информацию только от&nbsp;проверенных источников.</p>
+                  </div>
+                  <div class="box-item__img-inner"><img class="box-item__img" src="images/img1.jpg" alt="Надёжный источник информации" title="Надёжный источник информации"></div>
                </div>
-          <div class="advice__box">
-            <div class="advice__box-item">
-              <div class="box-item__inner">
-              <h5 class="box-item__title">Надёжная информация</h5>
-              <p class="box-item__text">Получай информацию только от&nbsp;проверенных источников.</p>
-              </div>
-              <div class="box-item__img-inner"><img class="box-item__img" src="images/img1.jpg" alt="Надёжный источник информации" title="Надёжный источник информации"></img></div>
+               <div class="advice__box-item">
+                  <div class="box-item__inner">
+                     <h5 class="box-item__title">Работайте лучше вместе</h5>
+                     <p class="box-item__text">Самое умное бизнес-решение&nbsp;&mdash; нанять квалифицированных сотрудников.</p>
+                  </div>
+                  <div class="box-item__img-inner"><img class="box-item__img" src="images/img2.jpg" alt="Командная работа" title="Командная работа"></div>
+               </div>
+               <div class="advice__box-item">
+                  <div class="box-item__inner">
+                     <h5 class="box-item__title">Мотивация</h5>
+                     <p class="box-item__text">Хватит вести себя так, как будто вам осталось жить 500&nbsp;лет.</p>
+                  </div>
+                  <div class="box-item__img-inner"><img class="box-item__img" src="images/img3.jpg" alt="Успей все сделать" title="Успей все сделать"></div>
+               </div>
+               <div class="advice__box-item">
+                  <div class="box-item__inner">
+                     <h5 class="box-item__title">Разбирайся в своем деле</h5>
+                     <p class="box-item__text">Найди тех, кто тебе поможет.</p>
+                  </div>
+                  <div class="box-item__img-inner"><img class="box-item__img" src="images/img4.jpg" alt="Научись в своем деле" title="Научись в своем деле"></div>
+               </div>
             </div>
-              <div class="advice__box-item">
-                <div class="box-item__inner">
-              <h5 class="box-item__title">Работайте лучше вместе</h5>
-              <p class="box-item__text">Самое умное бизнес-решение&nbsp;&mdash; нанять квалифицированных сотрудников.</p>
-              </div>
-              <div class="box-item__img-inner"><img class="box-item__img" src="images/img2.jpg" alt="Командная работа" title="Командная работа"></img></div>
-            </div>
-              <div class="advice__box-item">
-                <div class="box-item__inner">
-              <h5 class="box-item__title">Мотивация</h5>
-              <p class="box-item__text">Хватит вести себя так, как будто вам осталось жить 500&nbsp;лет.</p>
-              </div>
-              <div class="box-item__img-inner"><img class="box-item__img" src="images/img3.jpg" alt="Успей все сделать" title="Успей все сделать"></img></div>
-            </div>
-              <div class="advice__box-item">
-                <div class="box-item__inner">
-              <h5 class="box-item__title">Разбирайся в своем деле</h5>
-              <p class="box-item__text">Найди тех, кто тебе поможет.</p>
-              </div>
-              <div class="box-item__img-inner"><img class="box-item__img" src="images/img4.jpg" alt="Научись в своем деле" title="Научись в своем деле"></img></div>
-            </div>
-          </div>
-        </div>
+         </div>
       </section>
       <section class="service">
-        <div class="container">
-          <div class="main-content" id="anchor-2">
-                  <h2 class="main-content__title">Мы&nbsp;предоставляем лучший бизнес-сервис</h2>
-                  <p class="main-content__text">Мы&nbsp;не&nbsp;заваливаем вас кучей документов с&nbsp;перечислением лучших практик и&nbsp;не&nbsp;перекладываем их&nbsp;реализацию на&nbsp;ваши плечи. Вместо этого мы&nbsp;выявляем проблему и&nbsp;предлагаем решение, которое принимает во&nbsp;внимание местные особенности и&nbsp;задачи наших клиентов. </p>
+         <div class="container">
+            <div class="main-content" id="anchor-2">
+               <h2 class="main-content__title">Мы&nbsp;предоставляем лучший бизнес-сервис</h2>
+               <p class="main-content__text">Мы&nbsp;не&nbsp;заваливаем вас кучей документов с&nbsp;перечислением лучших практик и&nbsp;не&nbsp;перекладываем их&nbsp;реализацию на&nbsp;ваши плечи. Вместо этого мы&nbsp;выявляем проблему и&nbsp;предлагаем решение, которое принимает во&nbsp;внимание местные особенности и&nbsp;задачи наших клиентов. </p>
+            </div>
+            <div class="service__inner">
+               <div class="service__img"></div>
+               <div class="service__content">
+                  <div class="service__content-box">
+                     <h2 class="service__title">Мы хорошие специалисты</h2>
+                     <p class="service__text">Мы&nbsp;предлагаем глубокое погружение в&nbsp;суть ваших проблем и&nbsp;потенциал опытных специалистов-профессионалов, работающих совместно с&nbsp;вашей командой.</p>
+                  </div>
+                  <div class="service__description">
+                     <div class="service__description-box">
+                        <svg role="img" class="service__icon">
+                           <use xlink:href="images/icon/sprites.svg#icon4"></use>
+                        </svg>
+                        <div class="service__description-item">
+                           <h5 class="service__subtitle">Мы&nbsp;не&nbsp;зависим от&nbsp;поставщика технологий</h5>
+                           <p class="service__subtext">Мы&nbsp;не&nbsp;привязаны к&nbsp;какому-либо поставщику решений&nbsp;и, следовательно, в&nbsp;состоянии предложить решение.</p>
+                        </div>
+                     </div>
+                     <div class="service__description-box">
+                        <svg role="img" class="service__icon">
+                           <use xlink:href="images/icon/sprites.svg#icon7"></use>
+                        </svg>
+                        <div class="service__description-item">
+                           <h5 class="service__subtitle">Мы предоставляем реальные результаты</h5>
+                           <p class="service__subtext">Мы&nbsp;не&nbsp;заваливаем вас кучей документов с&nbsp;перечислением лучших практик и&nbsp;не&nbsp;перекладываем их&nbsp;реализацию на&nbsp;ваши плечи.</p>
+                        </div>
+                     </div>
+                  </div>
                </div>
-        <div class="service__inner">
-          <div class="service__img"></div>
-          <div class="service__content">
-            <div class="service__content-box">
-            <h2 class="service__title">Мы хорошие специалисты</h2>
-            <p class="service__text">Мы&nbsp;предлагаем глубокое погружение в&nbsp;суть ваших проблем и&nbsp;потенциал опытных специалистов-профессионалов, работающих совместно с&nbsp;вашей командой.</p>
             </div>
-            <div class="service__description">
-              <div class="service__description-box">
-              <svg role="img" class="service__icon"><use xlink:href="images/icon/sprites.svg#icon4"></use></svg>
-              <div class="service__description-item">
-              <h5 class="service__subtitle">Мы&nbsp;не&nbsp;зависим от&nbsp;поставщика технологий</h5>
-              <p class="service__subtext">Мы&nbsp;не&nbsp;привязаны к&nbsp;какому-либо поставщику решений&nbsp;и, следовательно, в&nbsp;состоянии предложить решение.</p>
-              </div>
-            </div>
-            <div class="service__description-box">
-            <svg role="img" class="service__icon"><use xlink:href="images/icon/sprites.svg#icon7"></use></svg>
-            <div class="service__description-item">             
-              <h5 class="service__subtitle">Мы предоставляем реальные результаты</h5>
-              <p class="service__subtext">Мы&nbsp;не&nbsp;заваливаем вас кучей документов с&nbsp;перечислением лучших практик и&nbsp;не&nbsp;перекладываем их&nbsp;реализацию на&nbsp;ваши плечи.</p>
-            </div>
-          </div>
-            </div>
-          </div>
-        </div>
-        </div>
+         </div>
       </section>
       <section class="brands" id="anchor-3">
-        <div class="container"> 
-          <div class="brands__inner">
-            <svg role="img" class="brands__img"><use xlink:href="images/icon/sprites.svg#icon8"></use></svg>
-            <svg role="img" class="brands__img"><use xlink:href="images/icon/sprites.svg#icon9"></use></svg>
-            <svg role="img" class="brands__img"><use xlink:href="images/icon/sprites.svg#icon10"></use></svg>
-            <svg role="img" class="brands__img"><use xlink:href="images/icon/sprites.svg#icon11"></use></svg>
-            <svg role="img" class="brands__img"><use xlink:href="images/icon/sprites.svg#icon12"></use></svg>
-            <svg role="img" class="brands__img"><use xlink:href="images/icon/sprites.svg#icon13"></use></svg>
-          </div>
-        </div>  
+         <div class="container">
+            <div class="brands__inner">
+               <svg role="img" class="brands__img">
+                  <use xlink:href="images/icon/sprites.svg#icon8"></use>
+               </svg>
+               <svg role="img" class="brands__img">
+                  <use xlink:href="images/icon/sprites.svg#icon9"></use>
+               </svg>
+               <svg role="img" class="brands__img">
+                  <use xlink:href="images/icon/sprites.svg#icon10"></use>
+               </svg>
+               <svg role="img" class="brands__img">
+                  <use xlink:href="images/icon/sprites.svg#icon11"></use>
+               </svg>
+               <svg role="img" class="brands__img">
+                  <use xlink:href="images/icon/sprites.svg#icon12"></use>
+               </svg>
+               <svg role="img" class="brands__img">
+                  <use xlink:href="images/icon/sprites.svg#icon13"></use>
+               </svg>
+            </div>
+         </div>
       </section>
       <section class="line">
-        <div class="container">
-        <div class="subscribe__block">
-          <h3 class="subscribe__title">Подпишитесь на&nbsp;рассылку</h3>
-          <form class="subscribe__form" action="#">
-            <input class="subscribe__form-input" type="text" id="subscribe__text" placeholder="Введите email">
-            <button class="subscribe__form-btn" type="submit" id="subscribe__submit">Подписаться</button>
-          </form>
-        </div>
-        </div>
+         <div class="container">
+            <div class="subscribe__block">
+               <h3 class="subscribe__title">Подпишитесь на&nbsp;рассылку</h3>
+               <form class="subscribe__form" action="#" method="get">
+                  <input class="subscribe__form-input" type="text" id="subscribe__text" placeholder="Введите email">
+                  <button class="subscribe__form-btn" type="submit" id="subscribe__submit">Подписаться</button>
+               </form>
+            </div>
+         </div>
       </section>
       <section class="contact">
-        <div class="container">
-          <div class="main-content" id="anchor-4">
-                  <h2 class="main-content__title">Обратная связь</h2>
-                  <p class="main-content__text">Если у&nbsp;вас возникли вопросы, то&nbsp;вы&nbsp;всегда можете связаться с&nbsp;нами.</p>
+         <div class="container">
+            <div class="main-content" id="anchor-4">
+               <h2 class="main-content__title">Обратная связь</h2>
+               <p class="main-content__text">Если у&nbsp;вас возникли вопросы, то&nbsp;вы&nbsp;всегда можете связаться с&nbsp;нами.</p>
+            </div>
+            <div class="contact__box">
+               <div class="contact__block-item">
+                  <svg role="img" class="block-item__img">
+                     <use xlink:href="images/icon/sprites.svg#icon14"></use>
+                  </svg>
+                  <a class="block-item__text" href="tel:+375294886036" title="Номер телефона">A1: +375 (29) 488-60-36</a>
+                  <h5 class="block-item__title">Получить помощь</h5>
+                  <a class="block-item__btn" href="#" title="Отправить запрос на телефонный звонок">Отправить запрос</a>
                </div>
-          <div class="contact__box">
-            <div class="contact__block-item">
-              <svg role="img" class="block-item__img"><use xlink:href="images/icon/sprites.svg#icon14"></use></svg>
-              <a class="block-item__text" href="tel:+375294886036">A1: +375 (29) 488-60-36</a>
-              <h5 class="block-item__title">Получить помощь</h5>
-              <a class="block-item__btn" href="#">Отправить запрос</a>
+               <div class="contact__main-block-item">
+                  <svg role="img" class="main-block-item__img">
+                     <use xlink:href="images/icon/sprites.svg#icon15"></use>
+                  </svg>
+                  <p class="block-item__text">ул. Прудникова, д.62, к.1</p>
+                  <h5 class="block-item__title">Получить помощь</h5>
+                  <a class="main-block-item__btn" href="#" title="Отправить запрос на местоположение">Отправить запрос</a>
+               </div>
+               <div class="contact__block-item">
+                  <svg role="img" class="block-item__img">
+                     <use xlink:href="images/icon/sprites.svg#icon16"></use>
+                  </svg>
+                  <a class="block-item__text" href="mailto:business@gmail.com">business@gmail.com</a>
+                  <h5 class="block-item__title">Получить помощь</h5>
+                  <a class="block-item__btn" href="#" title="Отправить запрос на почту">Отправить запрос</a>
+               </div>
             </div>
-            <div class="contact__main-block-item">
-              <svg role="img" class="main-block-item__img"><use xlink:href="images/icon/sprites.svg#icon15"></use></svg>
-              <p class="block-item__text">ул. Прудникова, д.62, к.1</p>
-              <h5 class="block-item__title">Получить помощь</h5>
-              <a class="main-block-item__btn" href="#">Отправить запрос</a>
-            </div>
-            <div class="contact__block-item">
-              <svg role="img" class="block-item__img"><use xlink:href="images/icon/sprites.svg#icon16"></use></svg>
-              <a class="block-item__text" href="mailto:business@gmail.com">business@gmail.com</a>
-              <h5 class="block-item__title">Получить помощь</h5>
-              <a class="block-item__btn" href="#">Отправить запрос</a>
-            </div>
-          </div>
-        </div>
+         </div>
       </section>
-
- 
- <footer class="footer">
-          <div class="container">
-          <div class="footer__block-title">
-            <div class="footer__content-title">
-            <h3 class="footer__title">Консалтинговое агентство для вашего бизнеса</h3>
-            <p class="footer__subtitle">Мы&nbsp;являемся группой опытных бизнес-консультантов, которая предоставляет услуги Финансовым Организациям</p>
+      <footer class="footer">
+         <div class="container">
+            <div class="footer__block-title">
+               <div class="footer__content-title">
+                  <h3 class="footer__title">Консалтинговое агентство для вашего бизнеса</h3>
+                  <p class="footer__subtitle">Мы&nbsp;являемся группой опытных бизнес-консультантов, которая предоставляет услуги Финансовым Организациям</p>
+               </div>
+               <a class="footer__btn" href="contact.html" title="Контакты">Контакты</a>
             </div>
-            <a class="footer__btn" href="contact.html">Контакты</a>
-          </div>
-          </div>
-          <div class="footer__nav">
+         </div>
+         <div class="footer__nav">
             <div class="container">
-              <ul class="footer__list">
-                <li class="footer__item">
-                  <h5 class="footer__item-title">О компании</h5>
-                  <a class="footer__item-text" href="about.html" alt="О нас">О нас</a>
-                  <a class="footer__item-text" href="contact.html" alt="Контакты">Контакты</a>
-                  <p class="footer__item-text">We are hiring</p>
-                  <p class="footer__item-text">Blog</p>
-                </li>
-                <li class="footer__item">
-                  <h5 class="footer__item-title">Юридический</h5>
-                  <p class="footer__item-text">About Us</p>
-                  <p class="footer__item-text">Carrier</p>
-                  <p class="footer__item-text">We are hiring</p>
-                  <p class="footer__item-text">Blog</p>
-                </li>
-                <li class="footer__item">
-                  <h5 class="footer__item-title">Функции</h5>
-                  <p class="footer__item-text">Business Marketing</p>
-                  <p class="footer__item-text">User Analytic</p>
-                  <p class="footer__item-text">Live Chat</p>
-                  <p class="footer__item-text">Unlimited Support</p>
-                </li>
-                <li class="footer__item">
-                  <h5 class="footer__item-title">Ресурсы</h5>
-                  <p class="footer__item-text">IOS & Android</p>
-                  <p class="footer__item-text">Watch a Demo</p>
-                  <p class="footer__item-text">Customers</p>
-                  <p class="footer__item-text">API</p>
-                </li>
-                <li class="footer__item">
-                  <h5 class="footer__item-title">Обратная связь</h5>
-                  <div class="footer__item-box">
-                    <div class="footer__item-item">
-                    <div class="inner__icon"><svg role="img" class="footer__icon"><use xlink:href="images/icon/sprites.svg#icon14"></use></svg></div>
-                    <a class="footer__item-text" href="tel:+375294886036">+375 (29) 488-60-36</a>
-                  </div>
-                  <div class="footer__item-item">
-                    <div class="inner__icon"><svg role="img" class="footer__icon"><use xlink:href="images/icon/sprites.svg#icon15"></use></svg></div>
-                    <p class="footer__item-text">ул. Прудникова, д.62, к.1</p>
-                  </div>
-                  <div class="footer__item-item">
-                    <div class="inner__icon"><svg role="img" class="footer__icon"><use xlink:href="images/icon/sprites.svg#icon16"></use></svg></div>
-                    <a class="footer__item-text" href="mailto:business@gmail.com">business@gmail.com</a>
-                  </div>
-                  </div>
-                </div>
-                </li>
-            </ul>
-          </div>
-          </div>
-          <div class="container">
-          <div class="footer__block-footer">
-            <p class="block-footer__text">© 2021–2021 Indicorp. Все права защищены</p>
-            <div class="block-footer__social-list">
-              <a class="block-footer__social-item" href="https://www.facebook.com/"><img class="social-item__img" src="images/icon/social/facebook.svg" title="facebook" /></a>
-              <a class="block-footer__social-item" href="https://www.instagram.com/"><img class="social-item__img" src="images/icon/social/instagram.svg" title="instagram" /></a>
-              <a class="block-footer__social-item" href="https://twitter.com/"><img class="social-item__img" src="images/icon/social/twitter.svg" title="twitter" /></a>
-              <a class="block-footer__social-item" href="https://www.youtube.com/"><img class="social-item__img" src="images/icon/social/youtube.svg" title="youtube" /></a>
+               <ul class="footer__list">
+                  <li class="footer__item">
+                     <h5 class="footer__item-title">О компании</h5>
+                     <a class="footer__item-text" href="about.html" title="О нас">О нас</a>
+                     <a class="footer__item-text" href="contact.html" title="Контакты">Контакты</a>
+                     <p class="footer__item-text">We are hiring</p>
+                     <p class="footer__item-text">Blog</p>
+                  </li>
+                  <li class="footer__item">
+                     <h5 class="footer__item-title">Юридический</h5>
+                     <p class="footer__item-text">About Us</p>
+                     <p class="footer__item-text">Carrier</p>
+                     <p class="footer__item-text">We are hiring</p>
+                     <p class="footer__item-text">Blog</p>
+                  </li>
+                  <li class="footer__item">
+                     <h5 class="footer__item-title">Функции</h5>
+                     <p class="footer__item-text">Business Marketing</p>
+                     <p class="footer__item-text">User Analytic</p>
+                     <p class="footer__item-text">Live Chat</p>
+                     <p class="footer__item-text">Unlimited Support</p>
+                  </li>
+                  <li class="footer__item">
+                     <h5 class="footer__item-title">Ресурсы</h5>
+                     <p class="footer__item-text">IOS & Android</p>
+                     <p class="footer__item-text">Watch a Demo</p>
+                     <p class="footer__item-text">Customers</p>
+                     <p class="footer__item-text">API</p>
+                  </li>
+                  <li class="footer__item">
+                     <h5 class="footer__item-title">Обратная связь</h5>
+                     <div class="footer__item-box">
+                        <div class="footer__item-item">
+                           <div class="inner__icon">
+                              <svg role="img" class="footer__icon">
+                                 <use xlink:href="images/icon/sprites.svg#icon14"></use>
+                              </svg>
+                           </div>
+                           <a class="footer__item-text" href="tel:+375294886036" title="Номер телефона">+375 (29) 488-60-36</a>
+                        </div>
+                        <div class="footer__item-item">
+                           <div class="inner__icon">
+                              <svg role="img" class="footer__icon">
+                                 <use xlink:href="images/icon/sprites.svg#icon15"></use>
+                              </svg>
+                           </div>
+                           <p class="footer__item-text">ул. Прудникова, д.62, к.1</p>
+                        </div>
+                        <div class="footer__item-item">
+                           <div class="inner__icon">
+                              <svg role="img" class="footer__icon">
+                                 <use xlink:href="images/icon/sprites.svg#icon16"></use>
+                              </svg>
+                           </div>
+                           <a class="footer__item-text" href="mailto:business@gmail.com" title="Почтовый адрес">business@gmail.com</a>
+                        </div>
+                     </div>
+                  </li>
+               </ul>
             </div>
-          </div>
-        </div>
-
+         </div>
+         <div class="container">
+            <div class="footer__block-footer">
+               <p class="block-footer__text">© 2021–2021 Indicorp. Все права защищены</p>
+               <div class="block-footer__social-list">
+                  <a class="block-footer__social-item" href="https://www.facebook.com/"><img class="social-item__img" src="images/icon/social/facebook.svg" title="facebook" /></a>
+                  <a class="block-footer__social-item" href="https://www.instagram.com/"><img class="social-item__img" src="images/icon/social/instagram.svg" title="instagram" /></a>
+                  <a class="block-footer__social-item" href="https://twitter.com/"><img class="social-item__img" src="images/icon/social/twitter.svg" title="twitter" /></a>
+                  <a class="block-footer__social-item" href="https://www.youtube.com/"><img class="social-item__img" src="images/icon/social/youtube.svg" title="youtube" /></a>
+               </div>
+            </div>
+         </div>
       </footer>
+      <script src="dist/js/custom.min.js" type="text/javascript"></script>
    </body>
-   <script>
-    if (location.hash === '') {
-      svg4everybody();
-    } else if (location.hash === '#fill') {
-      svg4everybody({
-        polyfill: true
-      });
-    } else if (location.hash === '#oldie') {
-      svg4everybody({
-        nosvg: true,
-        polyfill: true
-      });
-    }
-    
-    function addSVG(node, href) {
-      node.innerHTML ='<' + 'svg role="presentation"' + '><' + 'use xlink:href="' + href + '"/' + '><' + '/svg' + '>';
-      node.parentNode.replaceChild(node.lastChild, node);
-    }
-    </script>
- <script type="text/javascript">
-const form = document.getElementById("menu");
-
-function hideDiv() {
-  if (form.style.display === "block") {
-    form.style.display = "none";
-     return false; 
-  } else {
-    form.style.display = "block";
-     return false; 
-  }
-}
-     </script>
-<script>
-  (function(d){
-  var button = d.querySelector('#subscribe__submit'),
-      phoneField = d.querySelector('#subscribe__text'),
-      checkPhone = function() {
-        if (phoneField.value.length > 0) {
-          alert('Спасибо за подписку!');
-        } else {
-          alert('Необходимо ввести свой e-mail.');
-        }
-      }
-
-  button.addEventListener('click', checkPhone)
-})(document)
-</script>
-<script>
-$(document).ready(function() {
-$('.block-item__btn, .main-block-item__btn').click(function() {
-alert('Спасибо за ваш запрос');
- return false; // вернем false тогда переход по урлу не будет
-})
-});
-</script>
-<script>
-$(document).ready(function() {
-$('.get-btn').click(function() {
-alert('При выборе ниши стоит знать, что бизнес главным образом подразделяется на 3 сферы — сфера производства, сфера торговли и сфера услуг.');
- return true; // вернем false тогда переход по урлу не будет
-})
-});
-</script>
-<script>
-$('#deal').each(function () {
-    $(this).prop('Counter',0).animate({
-        Counter: $(this).text()
-    }, {
-        duration: Number($(this).attr("data-duration")),
-        easing: 'swing',
-        step: function (now) {
-            $(this).text(Math.ceil(now));
-        }
-    });
-});
-
-$('#client').each(function () {
-    $(this).prop('Counter',0).animate({
-        Counter: $(this).text()
-    }, {
-        duration: Number($(this).attr("data-duration")),
-        easing: 'swing',
-        step: function (now) {
-            $(this).text(Math.ceil(now));
-        }
-    });
-});
-
-$('#awards').each(function () {
-    $(this).prop('Counter',0).animate({
-        Counter: $(this).text()
-    }, {
-        duration: Number($(this).attr("data-duration")),
-        easing: 'swing',
-        step: function (now) {
-            $(this).text(Math.ceil(now));
-        }
-    });
-});
-
-$('#cases').each(function () {
-    $(this).prop('Counter',0).animate({
-        Counter: $(this).text()
-    }, {
-        duration: Number($(this).attr("data-duration")),
-        easing: 'swing',
-        step: function (now) {
-            $(this).text(Math.ceil(now));
-        }
-    });
-});
-</script>
-
 </html>
